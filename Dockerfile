@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos6
 
 RUN yum makecache && \
   yum groupinstall -y "Development Tools" && \
